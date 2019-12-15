@@ -1,20 +1,45 @@
-body { font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    font-size: smaller;
+    background-image: ('greek-vase.png')} 
 
+.main-container {
+    width: 960px;
+    padding:20px;
+    margin: 0 auto;
 }
 
-
+h1 {
+    float: left;
+    margin:auto;
+    padding:2px;
+    color:white;
+    font-family:'Georgia', Times, 'Times New Roman', serif;} 
+    
 .header {
-
+    clear: both;
+    overflow: auto;
+    background-color:white;
 }
 
+span {
+    background-color:#4aaaa5;
+    padding:10px;
+}
+
+h2 {
+    color:teal;
+    font-family:'Georgia', Times, 'Times New Roman', serif;}
+
+img {
+    float:left
+}
 
 .nav {
-
+    color:#777777;
+    float:right;
+    font-size:10px;
+    padding:25px;
 }
-
-
-.title {
-
-}
-
-
+a{color:#777777}
