@@ -17,7 +17,7 @@ body {
 .content-container {
     margin: 0;
     padding:20px;
-    border:solid gray;
+    border-color:#dddddd;
     border-width: .5px;
 }
 
@@ -47,6 +47,10 @@ h2 {
     color:teal;
     font-family:'Georgia', Times, 'Times New Roman', serif;}
 
+hr.headerline{ color:solid lightgray;
+
+}
+
 img {
     margin:0px;
     float:left;
@@ -60,6 +64,7 @@ img {
     font-size:11px;
     padding:10px;
 }
+
 a{color:#777777;
 text-decoration: none;}
 
