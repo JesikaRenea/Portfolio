@@ -17,7 +17,7 @@ body {
 .content-container {
     margin: 0;
     padding:20px;
-    border-color:#dddddd;
+    border:solid #dddddd;
     border-width: .5px;
 }
 
@@ -34,7 +34,7 @@ h1 {
     overflow: hidden;
     background-color:white;
     height: 70px; 
-    border-bottom: 1px solid black;
+    border-bottom: 1.5px solid lightgray;
 
 }
 
@@ -47,8 +47,7 @@ h2 {
     color:teal;
     font-family:'Georgia', Times, 'Times New Roman', serif;}
 
-hr.headerline{ color:solid lightgray;
-
+hr.headerline {border:1px solid lightgrey
 }
 
 img {
