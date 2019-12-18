@@ -85,6 +85,7 @@ footer {
 
 .portfolio {
     padding:10px;
+    position: relative;
 }
 
 .portfolio-container {
@@ -94,11 +95,13 @@ footer {
   
   .portfolio1 {
     position: absolute;
+    top: 350px;
+    left: auto;
+    margin:10px;
     background-color: #4aaaa5;
     color: white;
     width: 200px;
-    height: 30px;
+    height:30px;
     text-align: center;
-    font-family:'Georgia', Times, 'Times New Roman', serif;} 
-
-  }
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
