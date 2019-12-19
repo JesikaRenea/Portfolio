@@ -19,6 +19,7 @@ body {
     padding:20px;
     border:solid #dddddd;
     border-width: .5px;
+    overflow: auto;
 }
 
 
@@ -85,24 +86,23 @@ footer {
 
 .portfolio {
     padding:10px;
-    position: relative;
+    /* position: relative; */
+    width: 200px;
+    height: auto;
 }
 
-.portfolio2 {
-    clear: both
-    padding:10px;
-    position: relative;
-}
 
 .portfolio-container {
     position: relative;
     width:200px;
-    display: contents;  }
+    float: left;
+    margin: 10px;
+}
   
   .portfolio1 {
     position: absolute;
-    top: 350px;
-    left: auto;
+    top: 150px;
+    left: 0px;
     margin:10px;
     background-color: #4aaaa5;
     color: white;
@@ -112,15 +112,3 @@ footer {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-.portfolio2 {
-    position: absolute;
-    top: 350px;
-    left: auto;
-    margin:10px;
-    background-color: #4aaaa5;
-    color: white;
-    width: 200px;
-    height:30px;
-    text-align: center;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
