@@ -31,7 +31,7 @@ h1 {
     font-family:'Georgia', Times, 'Times New Roman', serif;
 } 
     
-.header {
+header {
     clear: both;
     overflow: hidden;
     background-color:white;
@@ -84,7 +84,7 @@ footer {
     text-align: center;
 }
 
-.portfolio {
+.portfolio-image {
     padding:10px;
     /* position: relative; */
     width: 200px;
@@ -99,7 +99,7 @@ footer {
     margin: 10px;
 }
   
-  .portfolio1 {
+  .portfolio-title {
     position: absolute;
     top: 150px;
     left: 0px;
